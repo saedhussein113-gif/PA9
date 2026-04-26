@@ -1,4 +1,7 @@
-//Authors: CB, SH, YG, LP, 
+//Authors: CB, SH, YG, LF, KT
+//Project: Programming Assingment 9
+//Description: Pac-Man
+//Date: 4/26/26
 #pragma once
 #include <SFML/Graphics.hpp>
 class Character
