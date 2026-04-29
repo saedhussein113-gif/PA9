@@ -1,0 +1,5 @@
+1. Player cannot move through walls (#)
+2. Player collects pellets and score increases
+3. Player loses when touching ghost
+4. Player wins when all pellets are gone
+5. Arrow keys correctly move player

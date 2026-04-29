@@ -1,4 +1,28 @@
-main.cpp 
+﻿/*
+ * Authors: CB, SH, YG, LF
+ * Course: CPTS 122
+ * Assignment: Programming Assignment 9
+ * Project: Pac-Man
+ *
+ * File: main.cpp
+ *
+ * Description:
+ * This file contains the main game loop and the game logic for the
+ * Pac-Man. We have built this using SFML. It manages game states
+ * like menu, playing, game over, win and handles user input, updates
+ * player and ghost movement, detects collisions, and renders
+ * all game elements including the map, UI screens, and entities.
+ *
+ * Features:
+ * - Game state management (MENU, PLAYING, GAME_OVER, WIN)
+ * - Tile-based map system with pellets and walls
+ * - Player movement and input handling
+ * - Ghost integration chaser, random, ambush
+ * - Collision detection and win/loss conditions
+ * - SFML-based rendering for gameplay and UI screens
+ *
+ * Date: April 23, 2026
+ */
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <string>
@@ -201,7 +225,7 @@ int main()
             if (event->is<sf::Event::Closed>())
                 window.close();
         }
-// key/control mapping
+        // key/control mapping
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Escape))
             window.close();
 
@@ -291,3 +315,4 @@ int main()
 
     return 0;
 }
+
