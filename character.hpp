@@ -4,6 +4,7 @@
 //Date: 4/26/26
 #pragma once
 #include <SFML/Graphics.hpp>
+//Class for pacman character
 class Character
 {
 protected:
