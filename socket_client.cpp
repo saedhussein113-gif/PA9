@@ -2,7 +2,7 @@
 #include <iostream>
 #include <winsock2.h>
 #pragma comment(lib, "ws2_32.lib")
-
+//extra credet socket code
 int main()
 {
 WSADATA wsa;
